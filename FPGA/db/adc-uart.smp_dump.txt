@@ -1,0 +1,29 @@
+
+State Machine - |ADCModule|prepare_state_sig
+Name prepare_state_sig.save prepare_state_sig.shift prepare_state_sig.check prepare_state_sig.idle 
+prepare_state_sig.idle 0 0 0 0 
+prepare_state_sig.check 0 0 1 1 
+prepare_state_sig.shift 0 1 0 1 
+prepare_state_sig.save 1 0 0 1 
+
+State Machine - |ADCModule|adc_state_sig
+Name adc_state_sig.acquire adc_state_sig.nap adc_state_sig.sending adc_state_sig.prepare adc_state_sig.convert 
+adc_state_sig.convert 0 0 0 0 0 
+adc_state_sig.prepare 0 0 0 1 1 
+adc_state_sig.sending 0 0 1 0 1 
+adc_state_sig.nap 0 1 0 0 1 
+adc_state_sig.acquire 1 0 0 0 1 
+
+State Machine - |ADCModule|state_sig
+Name state_sig.delay state_sig.newline state_sig.adc state_sig.header 
+state_sig.header 0 0 0 0 
+state_sig.adc 0 0 1 1 
+state_sig.newline 0 1 0 1 
+state_sig.delay 1 0 0 1 
+
+State Machine - |ADCModule|sending_state_sig
+Name sending_state_sig.stop sending_state_sig.data sending_state_sig.start sending_state_sig.uart_start 
+sending_state_sig.uart_start 0 0 0 0 
+sending_state_sig.start 0 0 1 1 
+sending_state_sig.data 0 1 0 1 
+sending_state_sig.stop 1 0 0 1 

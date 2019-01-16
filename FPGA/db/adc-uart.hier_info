@@ -1,0 +1,30 @@
+|ADCModule
+clk_50Mhz => scale_cnt[0].CLK
+clk_50Mhz => scale_cnt[1].CLK
+clk_50Mhz => scale_cnt[2].CLK
+clk_50Mhz => scale_cnt[3].CLK
+clk_50Mhz => scale_cnt[4].CLK
+clk_50Mhz => scale_cnt[5].CLK
+clk_50Mhz => scale_cnt[6].CLK
+clk_50Mhz => scale_cnt[7].CLK
+clk_50Mhz => scale_cnt[8].CLK
+clk_50Mhz => clk_5Mhz.CLK
+SCK << SCK.DB_MAX_OUTPUT_PORT_TYPE
+CONVST << CONVST~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SDI << SDI~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+SDO => adc_data_parallel.DATAB
+tx_out << tx_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk_sck << clk_sck$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

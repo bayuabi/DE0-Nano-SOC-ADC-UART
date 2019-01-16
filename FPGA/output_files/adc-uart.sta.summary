@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_5Mhz'
+Slack : -3.496
+TNS   : -399.319
+
+Type  : Slow 1100mV 85C Model Setup 'clk_50Mhz'
+Slack : -3.285
+TNS   : -27.731
+
+Type  : Slow 1100mV 85C Model Setup 'adc_state_sig.acquire'
+Slack : -1.817
+TNS   : -1.817
+
+Type  : Slow 1100mV 85C Model Hold 'clk_5Mhz'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_50Mhz'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'adc_state_sig.acquire'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_5Mhz'
+Slack : -0.394
+TNS   : -96.969
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_50Mhz'
+Slack : -0.394
+TNS   : -5.353
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'adc_state_sig.acquire'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk_5Mhz'
+Slack : -3.463
+TNS   : -389.242
+
+Type  : Slow 1100mV 0C Model Setup 'clk_50Mhz'
+Slack : -3.410
+TNS   : -27.720
+
+Type  : Slow 1100mV 0C Model Setup 'adc_state_sig.acquire'
+Slack : -1.754
+TNS   : -1.754
+
+Type  : Slow 1100mV 0C Model Hold 'clk_50Mhz'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_5Mhz'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'adc_state_sig.acquire'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_5Mhz'
+Slack : -0.394
+TNS   : -95.489
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_50Mhz'
+Slack : -0.394
+TNS   : -5.744
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'adc_state_sig.acquire'
+Slack : 0.370
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk_5Mhz'
+Slack : -1.792
+TNS   : -197.467
+
+Type  : Fast 1100mV 85C Model Setup 'clk_50Mhz'
+Slack : -1.717
+TNS   : -12.466
+
+Type  : Fast 1100mV 85C Model Setup 'adc_state_sig.acquire'
+Slack : -0.911
+TNS   : -0.911
+
+Type  : Fast 1100mV 85C Model Hold 'clk_50Mhz'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_5Mhz'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'adc_state_sig.acquire'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_50Mhz'
+Slack : -0.388
+TNS   : -1.439
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_5Mhz'
+Slack : -0.038
+TNS   : -0.972
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'adc_state_sig.acquire'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_5Mhz'
+Slack : -1.579
+TNS   : -168.250
+
+Type  : Fast 1100mV 0C Model Setup 'clk_50Mhz'
+Slack : -1.461
+TNS   : -10.888
+
+Type  : Fast 1100mV 0C Model Setup 'adc_state_sig.acquire'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Fast 1100mV 0C Model Hold 'clk_50Mhz'
+Slack : -0.091
+TNS   : -0.811
+
+Type  : Fast 1100mV 0C Model Hold 'clk_5Mhz'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'adc_state_sig.acquire'
+Slack : 0.220
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_50Mhz'
+Slack : -0.358
+TNS   : -1.374
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_5Mhz'
+Slack : -0.001
+TNS   : -0.008
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'adc_state_sig.acquire'
+Slack : 0.410
+TNS   : 0.000
+
+------------------------------------------------------------

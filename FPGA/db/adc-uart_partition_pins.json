@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SCK",
+					"strict" : false
+				},
+				{
+					"name" : "CONVST",
+					"strict" : false
+				},
+				{
+					"name" : "SDI",
+					"strict" : false
+				},
+				{
+					"name" : "tx_out",
+					"strict" : false
+				},
+				{
+					"name" : "clk_sck",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50Mhz",
+					"strict" : false
+				},
+				{
+					"name" : "SDO",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
