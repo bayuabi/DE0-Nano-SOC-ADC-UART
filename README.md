@@ -1,2 +1,2 @@
 
-![GUI Capture](GUI Capture.png "GUI Capture")
+![GUI Capture](DE0-Nano-SOC-ADC-UART/GUI Capture.PNG "GUI Capture")
