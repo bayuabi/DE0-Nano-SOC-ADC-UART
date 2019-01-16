@@ -1,2 +1,2 @@
 
-![GUI Capture](GUI Capture.png "GUI Capture")
+![GUI Capture](\/UI Capture.png "GUI Capture")
